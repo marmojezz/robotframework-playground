@@ -1,0 +1,8 @@
+name: robotframework-playground
+channels:
+  - conda-forge
+dependencies:
+  - python=3
+  - pip
+  - pip:
+    - .\bin\robotframework-5.0-py3-none-any.whl
